@@ -1,0 +1,16 @@
+Problema:
+1- Ler Sexo
+	> Só aceita M ou F
+	> Caso não 
+
+While
+
+- Só entra no laço caso a sua expressão seja verdadeira:
+	ex: While (1 == 1):
+			print('oi')
+	> Nesse caso irá ser printado oi infinitamente.
+		> Como sair desse laço?
+			> Basta que a expressão deixe de ser verdadeira:
+				ex: While (2 == 1):
+						print('oi')
+			> Nesse caso nunca será printado oi

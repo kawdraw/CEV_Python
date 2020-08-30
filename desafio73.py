@@ -1,0 +1,5 @@
+listaDeTimes = ('Internacional', 'Vasco da Gama', 'São Paulo', 'Atlético-MG', 'Palmeiras', 'Santos', 'Fluminense', 'Bahia', 'Grêmio', 'Athlrtico-PR', 'Botafogo', 'Corinthians', 'Bragantino-SP', 'Fortaleza', 'Flamengo', 'Goiás', 'Atlético-GO', 'Sport Recife', 'Ceará-SC', 'Coritiba')
+print(listaDeTimes[0:5])
+print(listaDeTimes[16:20])
+print(sorted(listaDeTimes))
+print(listaDeTimes.index('Corinthians'))
