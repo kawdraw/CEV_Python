@@ -1,7 +1,7 @@
 def escreva (text):
-    print('-' * len(text))
-    print(text)
-    print('-' * len(text))
+    print('-' * (len(text) + 4))
+    print(f'  {text}')
+    print('-' * (len(text) + 4))
 
 
 escreva('Jabiroca')

@@ -9,7 +9,8 @@ def contador (inicio, fim, passo):
 
     print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
     for c in range(inicio, fim, passo):
-        print(f'{c}',end=' ')
+        print(f'{c}',end=' ', flush=True)
+        sleep(0.5)
     print('')
     print('-='*30)
 
